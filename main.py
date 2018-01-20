@@ -27,7 +27,7 @@ def generate():
     print("processing...\n");
     while len(final)!=total:
     #a.write(random.sample(password,N)+"\n");
-        
+        print(len(final))
         final.add("".join(random.sample(password,N)))
     print(len(final))
     for i in final:
